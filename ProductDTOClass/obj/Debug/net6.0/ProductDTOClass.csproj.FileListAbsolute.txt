@@ -1,0 +1,12 @@
+C:\Users\anatt\Desktop\novia\År3\Service_Orienterade_system\ProductSolution\ProductDTOClass\bin\Debug\net6.0\ProductDTOClass.deps.json
+C:\Users\anatt\Desktop\novia\År3\Service_Orienterade_system\ProductSolution\ProductDTOClass\bin\Debug\net6.0\ProductDTOClass.dll
+C:\Users\anatt\Desktop\novia\År3\Service_Orienterade_system\ProductSolution\ProductDTOClass\bin\Debug\net6.0\ProductDTOClass.pdb
+C:\Users\anatt\Desktop\novia\År3\Service_Orienterade_system\ProductSolution\ProductDTOClass\obj\Debug\net6.0\ProductDTOClass.csproj.AssemblyReference.cache
+C:\Users\anatt\Desktop\novia\År3\Service_Orienterade_system\ProductSolution\ProductDTOClass\obj\Debug\net6.0\ProductDTOClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anatt\Desktop\novia\År3\Service_Orienterade_system\ProductSolution\ProductDTOClass\obj\Debug\net6.0\ProductDTOClass.AssemblyInfoInputs.cache
+C:\Users\anatt\Desktop\novia\År3\Service_Orienterade_system\ProductSolution\ProductDTOClass\obj\Debug\net6.0\ProductDTOClass.AssemblyInfo.cs
+C:\Users\anatt\Desktop\novia\År3\Service_Orienterade_system\ProductSolution\ProductDTOClass\obj\Debug\net6.0\ProductDTOClass.csproj.CoreCompileInputs.cache
+C:\Users\anatt\Desktop\novia\År3\Service_Orienterade_system\ProductSolution\ProductDTOClass\obj\Debug\net6.0\ProductDTOClass.dll
+C:\Users\anatt\Desktop\novia\År3\Service_Orienterade_system\ProductSolution\ProductDTOClass\obj\Debug\net6.0\refint\ProductDTOClass.dll
+C:\Users\anatt\Desktop\novia\År3\Service_Orienterade_system\ProductSolution\ProductDTOClass\obj\Debug\net6.0\ProductDTOClass.pdb
+C:\Users\anatt\Desktop\novia\År3\Service_Orienterade_system\ProductSolution\ProductDTOClass\obj\Debug\net6.0\ref\ProductDTOClass.dll
