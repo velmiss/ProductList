@@ -12,7 +12,9 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ProductApp.Pages.Products
 {
-    [Authorize(Policy = "RequireUserRole")]
+    //[Authorize(Policy = "RequireUserRole")]
+    //require loged in user
+    [Authorize]
     public class IndexModel : PageModel
     {
 

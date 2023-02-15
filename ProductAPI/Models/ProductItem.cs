@@ -15,6 +15,9 @@ namespace ProductAPI.Models
         public string Name { get; set; }
         [Required]
         public string Type { get; set; }
+
+        //restrict AmountInStock to be positive
+        [Range(0, int.MaxValue)]
         public int AmountInStock { get; set; }
         [Required]
         public string Distributor { get; set; }
