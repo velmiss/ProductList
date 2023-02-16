@@ -13,13 +13,14 @@ namespace ProductApp.Pages.Products
         [BindProperty]
         public ProductDTO ProductItem { get; set; } = new();
 
+        ProductApiController api = new();
+
         public async Task<IActionResult> OnGetAsync(long? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
-            ProductApiController api = new();
             var productitem = await api.GetProduct(id);
             if (productitem == null)
             {
@@ -33,8 +34,7 @@ namespace ProductApp.Pages.Products
         // For more details, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync(long id)
         {
-
-            ProductApiController api = new();
+            
             if (!ModelState.IsValid)
             {
                 return Page();

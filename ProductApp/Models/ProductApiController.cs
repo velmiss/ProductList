@@ -12,7 +12,7 @@ namespace ProductApp.Models
             mClient = new HttpClient();
             mClient.BaseAddress = new Uri(httpConnect);
             mClient.DefaultRequestHeaders.Add("Accept", "application/json");
-            mClient.DefaultRequestHeaders.Add("User-Agent", "ToDoApp");
+            mClient.DefaultRequestHeaders.Add("User-Agent", "ProductApp");
         }
         
         public async Task<List<ProductDTO>> GetProducts()

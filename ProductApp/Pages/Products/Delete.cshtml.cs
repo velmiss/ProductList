@@ -14,13 +14,13 @@ namespace ProductApp.Pages.Products
         [BindProperty]
         public ProductDTO ProductItem { get; set; } = new();
 
+        ProductApiController api = new();
         public async Task<IActionResult> OnGetAsync(long? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
-            ProductApiController api = new();
             var productitem = await api.GetProduct(id);
             if (productitem == null)
             {
@@ -33,7 +33,6 @@ namespace ProductApp.Pages.Products
 
         public async Task<IActionResult> OnPostAsync(long id)
         {
-            ProductApiController api = new();
             bool result = await api.DeleteProductItem(id);
             if (result)
             {
